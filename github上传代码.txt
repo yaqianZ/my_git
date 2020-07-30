@@ -1,0 +1,7 @@
+1、在本地需要上传代码的文件下，右键单击选择Git Bsah Here
+2、git add .
+3、git commit -m "first commit"   引号里写提交信息，如first commit 递推
+4、git remote add origin git@github.com:yaqianZ/my_git.git
+5、git pull origin master
+如果失败，则输入git pull origin master --allow-unrelated-histories
+6、git push -u origin master
